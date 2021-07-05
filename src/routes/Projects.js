@@ -1,11 +1,10 @@
 import React from "react";
-import ProjectsSection from "../components/Main/ProjectsSection";
+import ProjectsPage from "../components/Main/ProjectsPage";
 
 function Projects() {
   return (
     <>
-      <h1>Projects</h1>
-      <ProjectsSection />
+      <ProjectsPage />
     </>
   );
 }

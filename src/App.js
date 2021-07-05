@@ -1,12 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./styles/output.css";
 
-import About from "./routes/About";
-import Contact from "./routes/Contact";
+//Routes
 import Home from "./routes/Home";
+import About from "./routes/About";
 import Projects from "./routes/Projects";
+import Contact from "./routes/Contact";
 
-import SideBar from "./components/Header/SideBar";
+//Components
+import SideBar from "./components/Header/Navbar";
 import Footer from "./components/Footer/Footer";
 
 export default function App() {
@@ -28,6 +31,7 @@ export default function App() {
             <Home />
           </Route>
         </Switch>
+
         <Footer />
       </Router>
     </>

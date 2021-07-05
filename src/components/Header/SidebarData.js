@@ -1,29 +1,31 @@
 import React from "react";
-
-import * as AiIcons from "react-icons/ai";
-import * as FcIcons from "react-icons/fc";
-import * as GrIcons from "react-icons/gr";
 import * as FaIcons from "react-icons/fa";
+import * as AiIcons from "react-icons/ai";
+import * as IoIcons from "react-icons/io";
 
 export const SidebarData = [
   {
     title: "Home",
     path: "/home",
     icon: <AiIcons.AiFillHome />,
+    cName: "nav-text",
   },
   {
     title: "About",
     path: "/about",
-    icon: <FcIcons.FcAbout />,
+    icon: <IoIcons.IoIosPaper />,
+    cName: "nav-text",
   },
   {
     title: "Projects",
     path: "/projects",
-    icon: <GrIcons.GrProjects />,
+    icon: <FaIcons.FaCartPlus />,
+    cName: "nav-text",
   },
   {
     title: "Contact",
     path: "/contact",
-    icon: <FaIcons.FaPhone />,
+    icon: <IoIcons.IoMdPeople />,
+    cName: "nav-text",
   },
 ];
