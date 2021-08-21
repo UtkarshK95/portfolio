@@ -1,6 +1,7 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import "./styles/output.css";
+
+import React, { useState, useEffect } from "react";
 
 //Routes
 import Home from "./routes/Home";
@@ -9,31 +10,41 @@ import Projects from "./routes/Projects";
 import Contact from "./routes/Contact";
 
 //Components
-import SideBar from "./components/Header/Navbar";
-import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Header/Navbar";
+
+import Dropdown from "./components/Header/Dropdown";
 
 export default function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
+  useEffect(() => {
+    const hideMenu = () => {
+      if (window.innerWidth > 768 && isOpen) {
+        setIsOpen(false);
+        console.log("i resized");
+      }
+    };
+
+    window.addEventListener("resize", hideMenu);
+    return () => {
+      window.removeEventListener("resize", hideMenu);
+    };
+  });
+
   return (
     <>
-      <Router>
-        <SideBar />
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/home">
-            <Home />
-          </Route>
-        </Switch>
-
-        <Footer />
-      </Router>
+      <Navbar toggle={toggle} />
+      <Dropdown isOpen={isOpen} toggle={toggle} />
+      <Switch>
+        <Route path="/home" exact component={Home} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
     </>
   );
 }
