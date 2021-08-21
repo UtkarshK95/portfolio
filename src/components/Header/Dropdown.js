@@ -6,23 +6,23 @@ const Dropdown = ({ isOpen, toggle }) => {
     <div
       className={
         isOpen
-          ? "grid grid-rows-4 text-center items-center bg-gray-600 hover:border-green-500"
+          ? "grid grid-rows-4 text-center items-center bg-gray-600 "
           : "hidden"
       }
       onClick={toggle}
     >
-      <Link to="/home" className="p-4 border-green-500">
-        Homet
+      <Link to="/home" className="p-4  ">
+        Home
       </Link>
 
-      <Link to="/about" className="p-4 hover:border-green-500">
+      <Link to="/about" className="p-4 hover: ">
         {" "}
         About
       </Link>
-      <Link to="/projects" className="p-4 hover:border-green-500">
+      <Link to="/projects" className="p-4 hover: ">
         Projects
       </Link>
-      <Link to="/contact" className="p-4 hover:border-green-500">
+      <Link to="/contact" className="p-4 hover: ">
         Contact
       </Link>
     </div>

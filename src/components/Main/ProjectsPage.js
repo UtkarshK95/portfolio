@@ -40,7 +40,7 @@ function ProjectsPage() {
               </a>
             </div>
           </div>
-          {/* Project 2 */}
+
           <div className="flex flex-col md:flex-row-reverse items-start md:items-center justify-between bg-nik-lightGray rounded-3xl px-6 py-8 sm:px-10 sm:py-10 w-11/12 md:h-80 xl:h-96 space-y-6 md:space-y-0 md:space-x-8 border border-transparent hover:border-gray-200 hover:shadow-lg">
             <div className="md:w-1/2 w-full rounded-3xl md:h-full">
               <img
@@ -69,7 +69,7 @@ function ProjectsPage() {
               </a>
             </div>
           </div>
-          {/* Project 3 */}
+
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between bg-nik-lightGray rounded-3xl px-6 py-8 sm:px-10 sm:py-10 w-11/12 md:h-80 xl:h-96 space-y-6 md:space-y-0 md:space-x-12 border border-transparent hover:border-gray-200 hover:shadow-lg">
             <div className="md:w-1/2 w-full rounded-3xl md:h-full">
               <img
