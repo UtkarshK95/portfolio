@@ -23,7 +23,9 @@ function Hero() {
           <div className="flex justify-center">
             <a
               className="inline-flex shadow-lg hover:shadow-md hover:border-gray-500 text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded-3xl text-lg"
-              href="#contact"
+              href="https://drive.google.com/file/d/1efiG1Mtk9pWg-aVhZ6wXuF4_AxyhRqBa/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
             >
               Resume{"  "}
               <HiCloudDownload className="text-3xl px-1 mx-auto inline-block" />
