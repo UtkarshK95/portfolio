@@ -29,7 +29,7 @@ const Navbar = ({ toggle }) => {
       </div>
       <div className="pr-8 md:block hidden">
         <Link
-          to="/home"
+          to="/"
           className="p-4 shadow-lg border border-transparent hover:shadow-md hover:border-gray-500 focus:outline-none font-medium text-gray-200 px-5 py-3 rounded-lg cursor-pointer"
         >
           Home

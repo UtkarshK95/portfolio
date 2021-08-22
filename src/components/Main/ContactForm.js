@@ -127,6 +127,7 @@ function ContactSection() {
                         class="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-900"
                         placeholder="Name"
                         name="name"
+                        required
                       />
                     </div>
                     <div className="col-8 form-group pt-2 mx-auto">
@@ -139,6 +140,7 @@ function ContactSection() {
                         class="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-900"
                         placeholder="Email Address"
                         name="email"
+                        required
                       />
                     </div>
                     <div className="col-8 form-group pt-2 mx-auto">
@@ -151,6 +153,7 @@ function ContactSection() {
                         class="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-900"
                         placeholder="Subject"
                         name="subject"
+                        required
                       />
                     </div>
                     <div className="col-8 form-group pt-2 mx-auto">
@@ -165,6 +168,7 @@ function ContactSection() {
                         rows="2"
                         placeholder="Your message"
                         name="message"
+                        required
                       ></textarea>
                     </div>
                     <div className="col-8 pt-3 mx-auto">
