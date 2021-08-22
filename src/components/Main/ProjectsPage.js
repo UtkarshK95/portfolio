@@ -2,6 +2,8 @@ import React from "react";
 import Github from "../../assets/github.svg";
 import Footer from "../Footer/Footer";
 import Portfolio from "../../assets/portfolio.png";
+import ImageSearch from "../../assets/imagesearch.png";
+import Todo from "../../assets/todo.png";
 
 function ProjectsPage() {
   return (
@@ -60,7 +62,7 @@ function ProjectsPage() {
                 </p>
               </div>
               <a
-                href="https://utkarsh-image-search.netlify.app/"
+                src={ImageSearch}
                 className="bg-white text-nik-dark px-5 py-4 md:py-3 md:px-4 xl:py-4 xl:px-6 rounded-xl text-base md:text-base xl:text-lg font-normal shadow-xl hover:bg-nik-dark hover:bg-gray-200 focus:outline-none"
                 target="_blank"
                 rel="noreferrer"
@@ -88,7 +90,7 @@ function ProjectsPage() {
                 </p>
               </div>
               <a
-                href="http://utkarsh-todo.netlify.app/"
+                src={Todo}
                 className="bg-white text-nik-dark px-5 py-4 md:py-3 md:px-4 xl:py-4 xl:px-6 rounded-xl text-base md:text-base xl:text-lg font-normal shadow-xl hover:bg-nik-dark hover:bg-gray-200 focus:outline-none"
                 target="_blank"
                 rel="noreferrer"
