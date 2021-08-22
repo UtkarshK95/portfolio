@@ -11,7 +11,7 @@ const Dropdown = ({ isOpen, toggle }) => {
       }
       onClick={toggle}
     >
-      <Link to="/home" className="p-4  ">
+      <Link to="/" className="p-4  ">
         Home
       </Link>
 
