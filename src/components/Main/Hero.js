@@ -4,8 +4,8 @@ import { HiCloudDownload } from "react-icons/hi";
 
 function Hero() {
   return (
-    <div className="text-gray-400 h-screen bg-gray-900 body-font">
-      <div className="container mx-auto flex px-10 py-40 md:flex-row flex-col items-center">
+    <div className="text-gray-400 h-screen; bg-gray-900 body-font">
+      <div className="container lg:h-screen mx-auto flex px-10 py-40 md:flex-row flex-col items-center ">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <p className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-normal">
             Hi, I am

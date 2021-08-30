@@ -44,18 +44,20 @@ function ContactSection() {
                   Contact Me
                 </h1>
                 <p class="text-white text-sm pt-2">
-                  Hi, My name is Utkarsh Katiyar. If you want to connect, then
-                  you can fill this form.
+                  Hi, My name is Utkarsh Katiyar.
+                  <br />
+                  Send me a message with your info.
                 </p>
               </div>
               <div class="flex flex-col space-y-6">
-                <div class="inline-flex space-x-2 items-center">
+                {/* Phone Number */}
+                {/* <div class="inline-flex space-x-2 items-center">
                   <ion-icon
                     name="call"
                     class="text-xl text-green-500"
                   ></ion-icon>
-                  <span class="select-all">+91 XXXXXXXXXX</span>
-                </div>
+                  <span class="select-all">+91 9.........</span>
+                </div> */}
                 <div class="inline-flex space-x-2 items-center">
                   <ion-icon
                     name="mail"
