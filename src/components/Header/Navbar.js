@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = ({ toggle }) => {
   return (
@@ -28,30 +28,30 @@ const Navbar = ({ toggle }) => {
         </svg>
       </div>
       <div className="pr-8 md:block hidden">
-        <Link
+        <NavLink
           to="/"
           className="p-4 shadow-lg border border-transparent hover:shadow-md hover:border-gray-500 focus:outline-none font-medium text-gray-200 px-5 py-3 rounded-lg cursor-pointer"
         >
           Home
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/about"
           className="p-4 shadow-lg border border-transparent hover:shadow-md hover:border-gray-500 focus:outline-none font-medium text-gray-200 px-5 py-3 rounded-lg cursor-pointer"
         >
           About
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/projects"
           className="p-4 shadow-lg border border-transparent hover:shadow-md hover:border-gray-500 focus:outline-none font-medium text-gray-200 px-5 py-3 rounded-lg cursor-pointer"
         >
           Projects
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink
           to="/contact"
           className="p-4 shadow-lg border border-transparent hover:shadow-md hover:border-gray-500 focus:outline-none font-medium text-gray-200 px-5 py-3 rounded-lg cursor-pointer"
         >
           Contact
-        </Link>
+        </NavLink>
       </div>
     </nav>
   );

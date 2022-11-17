@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Dropdown = ({ isOpen, toggle }) => {
   return (
@@ -11,20 +11,20 @@ const Dropdown = ({ isOpen, toggle }) => {
       }
       onClick={toggle}
     >
-      <Link to="/" className="p-4  ">
+      <NavLink to="/" className="p-4  ">
         Home
-      </Link>
+      </NavLink>
 
-      <Link to="/about" className="p-4 hover: ">
+      <NavLink to="/about" className="p-4 hover: ">
         {" "}
         About
-      </Link>
-      <Link to="/projects" className="p-4 hover: ">
+      </NavLink>
+      <NavLink to="/projects" className="p-4 hover: ">
         Projects
-      </Link>
-      <Link to="/contact" className="p-4 hover: ">
+      </NavLink>
+      <NavLink to="/contact" className="p-4 hover: ">
         Contact
-      </Link>
+      </NavLink>
     </div>
   );
 };

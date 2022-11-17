@@ -3,29 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "emailjs-com": "^3.1.0",
-    "framer-motion": "^4.1.17",
-    "node-sass": "^6.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "react-scroll": "^1.8.3",
-    "react-toastify": "^7.0.4",
-    "styled-components": "^5.3.0",
-    "swiper": "^6.7.5",
-    "web-vitals": "^1.1.2"
+    "emailjs-com": "^3.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.1"
   },
   "scripts": {
-    "start": "npm run watch:css && react-scripts start",
-    "build": "npm run watch:css && react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "watch:css": "postcss src/styles/tailwind.css -o src/styles/output.css"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -46,9 +36,8 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.5",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.2.4"
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
   }
 }

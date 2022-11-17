@@ -1,4 +1,8 @@
-import { Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes, // instead of "Switch"
+  Route,
+} from "react-router-dom";
 import "./styles/output.css";
 
 import React, { useState, useEffect } from "react";
@@ -37,14 +41,16 @@ export default function App() {
 
   return (
     <>
-      <Navbar toggle={toggle} />
-      <Dropdown isOpen={isOpen} toggle={toggle} />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-      </Switch>
+      <BrowserRouter>
+        <Navbar toggle={toggle} />
+        <Dropdown isOpen={isOpen} toggle={toggle} />
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
