@@ -1,8 +1,6 @@
 import React from "react";
 import Github from "../../assets/github.svg";
 import Portfolio from "../../assets/portfolio.png";
-import ImageSearch from "../../assets/imagesearch.png";
-import Todo from "../../assets/todo.png";
 
 function ProjectsPage() {
   return (
@@ -35,63 +33,6 @@ function ProjectsPage() {
             <a
               href="/#"
               className="bg-white text-nik-dark px-5 py-4 md:py-3 md:px-4 xl:py-4 xl:px-6 rounded-xl text-base md:text-base xl:text-lg font-normal shadow-xl hover:bg-nik-dark hover:bg-gray-200 focus:outline-none"
-            >
-              See Live
-            </a>
-          </div>
-        </div>
-
-        <div className="flex flex-col md:flex-row-reverse items-start md:items-center justify-between bg-nik-lightGray rounded-3xl px-6 py-8 sm:px-10 sm:py-10 w-11/12 md:h-80 xl:h-96 space-y-6 md:space-y-0 md:space-x-8 border border-transparent hover:border-gray-200 hover:shadow-lg">
-          <div className="md:w-1/2 w-full rounded-3xl md:h-full">
-            <img
-              src={ImageSearch}
-              alt="abc"
-              className="rounded-xl sm:rounded-3xl w-full md:w-auto h-full shadow-lg object-cover"
-            />
-          </div>
-          <div className="flex w-full md:w-1/2 flex-col items-start space-y-6 md:space-y-6 xl:space-y-12 px-4 sm:px-0">
-            <div className="flex flex-col space-y-4 md:space-y-5">
-              <h3 className="text-nik-dark text-xl sm:text-2xl md:text-2xl xl:text-4xl font-bold line-clamp-1">
-                Image Search
-              </h3>
-              <p className="md:text-lg xl:text-xl font-normal line-clamp-2 sm:line-clamp-3 text-gray-500">
-                An Image Search webapp built using ReactJS, Tailwind CSS and
-                Pixabay API
-              </p>
-            </div>
-            <a
-              href="https://utkarsh-image-search.netlify.app"
-              className="bg-white text-nik-dark px-5 py-4 md:py-3 md:px-4 xl:py-4 xl:px-6 rounded-xl text-base md:text-base xl:text-lg font-normal shadow-xl hover:bg-nik-dark hover:bg-gray-200 focus:outline-none"
-              target="_blank"
-              rel="noreferrer"
-            >
-              See Live
-            </a>
-          </div>
-        </div>
-
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between bg-nik-lightGray rounded-3xl px-6 py-8 sm:px-10 sm:py-10 w-11/12 md:h-80 xl:h-96 space-y-6 md:space-y-0 md:space-x-12 border border-transparent hover:border-gray-200 hover:shadow-lg">
-          <div className="md:w-1/2 w-full rounded-3xl md:h-full">
-            <img
-              src={Todo}
-              alt="abc"
-              className="rounded-xl sm:rounded-3xl w-full md:w-auto h-full shadow-lg object-cover"
-            />
-          </div>
-          <div className="flex w-full md:w-1/2 flex-col items-start space-y-6 md:space-y-6 xl:space-y-12 px-4 sm:px-0">
-            <div className="flex flex-col space-y-4 md:space-y-5">
-              <h3 className="text-nik-dark text-xl sm:text-2xl md:text-2xl xl:text-4xl font-bold line-clamp-1">
-                Todo
-              </h3>
-              <p className="md:text-lg xl:text-xl font-normal line-clamp-2 sm:line-clamp-3 text-gray-500">
-                A Todo app built using ReactJS, Redux and MaterialUI
-              </p>
-            </div>
-            <a
-              href="https://utkarsh-todo.netlify.app/"
-              className="bg-white text-nik-dark px-5 py-4 md:py-3 md:px-4 xl:py-4 xl:px-6 rounded-xl text-base md:text-base xl:text-lg font-normal shadow-xl hover:bg-nik-dark hover:bg-gray-200 focus:outline-none"
-              target="_blank"
-              rel="noreferrer"
             >
               See Live
             </a>
