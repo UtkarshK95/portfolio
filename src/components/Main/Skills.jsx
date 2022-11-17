@@ -15,8 +15,8 @@ import { SiAzuredevops } from "react-icons/si";
 
 function Skills() {
   return (
-    <div>
-      <h1 class="text-3xl py-10 font-medium title-font text-gray-900 mb-12 text-center">
+    <>
+      <h1 className="text-3xl py-10 font-medium title-font text-gray-900 mb-12 text-center">
         Skills
       </h1>
       <div className="flex flex-col sm:flex-row align-center justify-center max-w-2xl mx-auto mt-8">
@@ -75,7 +75,7 @@ function Skills() {
           <p className="text-xl font-semibold mt-4">npm</p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

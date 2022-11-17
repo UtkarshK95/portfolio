@@ -1,22 +1,13 @@
-import {
-  BrowserRouter,
-  Routes, // instead of "Switch"
-  Route,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles/output.css";
-
 import React, { useState, useEffect } from "react";
-
-//Routes
-import Home from "./routes/Home";
-import About from "./routes/About";
-import Projects from "./routes/Projects";
-import Contact from "./routes/Contact";
-
-//Components
 import Navbar from "./components/Header/Navbar";
-
 import Dropdown from "./components/Header/Dropdown";
+import Home from "./components/Main/Home";
+import About from "./components/Main/About";
+import Projects from "./components/Main/Projects";
+import Contact from "./components/Main/Contact";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,6 +41,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
