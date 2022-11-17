@@ -49,14 +49,6 @@ function ContactSection() {
                 </p>
               </div>
               <div className="flex flex-col space-y-6">
-                {/* Phone Number */}
-                {/* <div className="inline-flex space-x-2 items-center">
-                  <ion-icon
-                    name="call"
-                    className="text-xl text-green-500"
-                  ></ion-icon>
-                  <span className="select-all">+91 9.........</span>
-                </div> */}
                 <div className="inline-flex space-x-2 items-center">
                   <ion-icon
                     name="mail"

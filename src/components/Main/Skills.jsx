@@ -9,9 +9,6 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaNpm } from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
-import { FaNode } from "react-icons/fa";
-import { SiAzuredevops } from "react-icons/si";
 
 function Skills() {
   return (
@@ -45,20 +42,6 @@ function Skills() {
         <div className="m-4 w-40 flex-none mx-auto text-center p-5 rounded-xl border-2 border-gray-300">
           <SiTailwindcss className="text-4xl mx-auto inline-block" />
           <p className="text-xl font-semibold mt-4">Tailwind</p>
-        </div>
-      </div>
-      <div className="flex flex-col sm:flex-row align-center justify-center max-w-2xl mx-auto mt-8">
-        <div className="m-4 w-40 flex-none mx-auto text-center p-5 rounded-xl border-2 border-gray-300">
-          <FaNode className="text-4xl mx-auto inline-block" />
-          <p className="text-xl font-semibold mt-4">NodeJS</p>
-        </div>
-        <div className="m-4 w-40 flex-none mx-auto text-center p-5 rounded-xl border-2 border-gray-300">
-          <SiAzuredevops className="text-4xl mx-auto inline-block" />
-          <p className="text-xl font-semibold mt-4">Azure Devops</p>
-        </div>
-        <div className="m-4 w-40 flex-none mx-auto text-center p-5 rounded-xl border-2 border-gray-300">
-          <SiMysql className="text-4xl mx-auto inline-block" />
-          <p className="text-xl font-semibold mt-4">MySQL</p>
         </div>
       </div>
       <div className="flex flex-col sm:flex-row align-center justify-center max-w-2xl mx-auto mt-8">
