@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = ({ toggle }) => {
   return (
     <nav
-      className="flex justify-between items-center h-16 bg-gray-800 text-white relative shadow-sm font-mono "
+      className="flex justify-between items-center h-16 bg-gray-800 text-white sticky top-0 z-50 shadow-sm font-mono "
       role="navigation"
     >
       <h3 className="px-4 text-2xl text-[#5C637C] font-light">
