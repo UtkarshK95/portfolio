@@ -7,8 +7,8 @@ import { FaReact } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
-import { AiOutlineGithub } from "react-icons/ai";
-import { FaNpm } from "react-icons/fa";
+import { SiJest } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 
 function Skills() {
   return (
@@ -32,6 +32,10 @@ function Skills() {
       </div>
       <div className="flex flex-col sm:flex-row align-center justify-center max-w-2xl mx-auto mt-8">
         <div className="m-4 w-40 flex-none mx-auto text-center p-5 rounded-xl border-2 border-gray-300">
+          <SiTypescript className="text-4xl mx-auto inline-block" />
+          <p className="text-xl font-semibold mt-4">TypeScript</p>
+        </div>
+        <div className="m-4 w-40 flex-none mx-auto text-center p-5 rounded-xl border-2 border-gray-300">
           <FaReact className="text-4xl mx-auto inline-block" />
           <p className="text-xl font-semibold mt-4">ReactJS</p>
         </div>
@@ -39,23 +43,19 @@ function Skills() {
           <SiRedux className="text-4xl mx-auto inline-block" />
           <p className="text-xl font-semibold mt-4">Redux</p>
         </div>
+      </div>
+      <div className="flex flex-col sm:flex-row align-center justify-center max-w-2xl mx-auto mt-8">
         <div className="m-4 w-40 flex-none mx-auto text-center p-5 rounded-xl border-2 border-gray-300">
           <SiTailwindcss className="text-4xl mx-auto inline-block" />
           <p className="text-xl font-semibold mt-4">Tailwind</p>
         </div>
-      </div>
-      <div className="flex flex-col sm:flex-row align-center justify-center max-w-2xl mx-auto mt-8">
         <div className="m-4 w-40 flex-none mx-auto text-center p-5 rounded-xl border-2 border-gray-300">
           <FaGitAlt className="text-4xl mx-auto inline-block" />
           <p className="text-xl font-semibold mt-4">Git</p>
         </div>
         <div className="m-4 w-40 flex-none mx-auto text-center p-5 rounded-xl border-2 border-gray-300">
-          <AiOutlineGithub className="text-4xl mx-auto inline-block" />
-          <p className="text-xl font-semibold mt-4">GitHub</p>
-        </div>
-        <div className="m-4 w-40 flex-none mx-auto text-center p-5 rounded-xl border-2 border-gray-300">
-          <FaNpm className="text-4xl mx-auto inline-block" />
-          <p className="text-xl font-semibold mt-4">npm</p>
+          <SiJest className="text-4xl mx-auto inline-block" />
+          <p className="text-xl font-semibold mt-4">Jest</p>
         </div>
       </div>
     </>
