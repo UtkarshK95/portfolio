@@ -33,7 +33,7 @@ function Timeline() {
             <div className="timeline-container">
               <div className="bg-white p-6 mb-3 rounded-md shadow-md">
                 <span className="font-bold text-green-500 text-sm tracking-wide">
-                  Jan 2021 - Present
+                  Jan 2022 - Present
                 </span>
                 <h1 className="text-2xl font-bold pt-1">Publicis Sapient</h1>
                 <p className="pt-1">Associate, Technology L2</p>

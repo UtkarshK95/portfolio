@@ -23,7 +23,7 @@ function Hero() {
           <div className="flex justify-center">
             <a
               className="inline-flex shadow-lg hover:shadow-md hover:border-gray-500 text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded-3xl text-lg"
-              href="https://drive.google.com/file/d/1ZbINhMQN1CIuO-18n07Rq-zWVRtGJIkf/view?usp=sharing"
+              href="https://drive.google.com/file/d/1rJwSlkcZ_7NGdoGuxCrAthnHY6R-Dw_7/view?usp=share_link"
               target="_blank"
               rel="noreferrer"
             >
