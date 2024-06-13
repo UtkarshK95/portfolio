@@ -1,194 +1,153 @@
-import React from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-function ContactSection() {
-  function sendEmail(e) {
-    e.preventDefault();
-    toast.success("Message Sent", {
-      position: "top-center",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-    });
-    emailjs
-      .sendForm(
-        "service_5vupg69",
-        "template_ec1kqli",
-        e.target,
-        "user_4Q2D5fw8yqUdAbmXSCugV"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
-  }
-  return (
-    <>
-      <div className="antialiased bg-gray-100">
-        <div className="w-full min-h-screen flex justify-center items-center">
-          <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:items-stretch md:space-x-12 bg-gray-900 w-full max-w-4xl p-8 sm:px-12 sm:py-10 rounded-xl shadow-lg text-white overflow-hidden">
-            <div className="md:py-4 flex-grow flex flex-col space-y-8 md:justify-between">
-              <div className="">
-                <h1 className="font-bold text-4xl tracking-wide text-green-500">
-                  Contact Me
-                </h1>
-                <p className="text-white text-sm pt-2">
-                  Hi, My name is Utkarsh Katiyar.
-                  <br />
-                  Send me a message with your info.
-                </p>
-              </div>
-              <div className="flex flex-col space-y-6">
-                <div className="inline-flex space-x-2 items-center">
-                  <ion-icon
-                    name="mail"
-                    className="text-xl text-green-500"
-                  ></ion-icon>
-                  <span className="select-all">
-                    utkarsh_katiyar@outlook.com
-                  </span>
-                </div>
-                <div className="inline-flex space-x-2 items-center">
-                  <ion-icon
-                    name="location"
-                    className="text-xl text-green-500"
-                  ></ion-icon>
-                  <span className="select-all">Agra(U.P.), India</span>
-                </div>
-              </div>
-              <div className="flex space-x-4 text-lg">
-                <a
-                  href="https://github.com/UtkarshK95"
-                  className="hover:text-green-500"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <ion-icon name="logo-github"></ion-icon>
-                </a>
-                <a
-                  href="https://twitter.com/UtkarshK07"
-                  className="hover:text-green-500"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <ion-icon name="logo-twitter"></ion-icon>
-                </a>
+const ContactSection = () => {
+  const formRef = useRef(null);
 
-                <a
-                  href="https://instagram.com/utkarsh.katiyar07"
-                  className="hover:text-green-500"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <ion-icon name="logo-instagram"></ion-icon>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/utkarsh-katiyar/"
-                  className="hover:text-green-500"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
-              </div>
-            </div>
-            <div className="relative z-10">
-              <div className="absolute -top-28 -right-28 z-0 bg-green-500 w-40 h-40 rounded-full"></div>
-              <div className="absolute -bottom-16 -left-28 z-0 bg-green-500 w-40 h-40 rounded-full"></div>
-              <div className="relative z-10 w-full md:w-80 h-full bg-white p-8 text-gray-600 rounded-xl shadow-lg">
-                <form
-                  action=""
-                  className="flex flex-col space-y-4"
-                  onSubmit={sendEmail}
-                >
-                  <div className="row pt-5 mx-auto">
-                    <div className="col-8 form-group mx-auto">
-                      <label htmlFor="" className="text-sm">
-                        Your name
-                      </label>
-                      <input
-                        type="text"
-                        className="form-control ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-900"
-                        placeholder="Name"
-                        name="name"
-                        required
-                      />
-                    </div>
-                    <div className="col-8 form-group pt-2 mx-auto">
-                      <label htmlFor="" className="text-sm">
-                        Email Address
-                      </label>
-                      <input
-                        type="email"
-                        className="form-control ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-900"
-                        placeholder="Email Address"
-                        name="email"
-                        required
-                      />
-                    </div>
-                    <div className="col-8 form-group pt-2 mx-auto">
-                      <label htmlFor="" className="text-sm">
-                        Subject
-                      </label>
-                      <input
-                        type="text"
-                        className="form-control ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-900"
-                        placeholder="Subject"
-                        name="subject"
-                        required
-                      />
-                    </div>
-                    <div className="col-8 form-group pt-2 mx-auto">
-                      <label htmlFor="" className="text-sm">
-                        Message
-                      </label>
-                      <textarea
-                        className="form-control ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-900"
-                        id=""
-                        cols="10"
-                        rows="2"
-                        placeholder="Your message"
-                        name="message"
-                        required
-                      ></textarea>
-                    </div>
-                    <div className="col-8 pt-3 mx-auto">
-                      <input
-                        type="submit"
-                        className="btn btn-info inline-block self-end hover:bg-green-500 text-white bg-gray-500 font-bold rounded-lg px-6 py-2 uppercase text-sm"
-                        value="Send Message"
-                      ></input>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
+  const sendEmail = async (event) => {
+    event.preventDefault();
+    try {
+      await emailjs.sendForm(
+        "service_hukq31e",
+        "template_l1egrob",
+        formRef.current,
+        "BWt78xRzanE889_VG"
+      );
+      toast.success("Message Sent", toastConfig);
+      console.log("SUCCESS!");
+    } catch (error) {
+      toast.error("Failed to send message", toastConfig);
+      console.log("FAILED...", error.text);
+    }
+    event.target.reset();
+  };
+
+  return (
+    <div className="antialiased bg-gray-100">
+      <div className="flex justify-center items-center min-h-screen w-full">
+        <div className="flex flex-col md:flex-row bg-gray-900 text-white shadow-lg rounded-xl overflow-hidden max-w-4xl w-full p-8 sm:p-12 space-y-6 md:space-x-12 md:space-y-0 md:items-stretch">
+          <ContactInfo />
+          <ContactForm formRef={formRef} onSubmit={sendEmail} />
         </div>
       </div>
-      <ToastContainer
-        position="top-center"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-      />
-    </>
+      <ToastContainer {...toastContainerProps} />
+    </div>
   );
-}
+};
+
+const toastConfig = {
+  position: "top-center",
+  autoClose: 5000,
+  hideProgressBar: false,
+  closeOnClick: true,
+  pauseOnHover: true,
+  draggable: true,
+};
+
+const toastContainerProps = {
+  position: "top-center",
+  autoClose: 5000,
+  hideProgressBar: false,
+  newestOnTop: false,
+  closeOnClick: true,
+  rtl: false,
+  pauseOnFocusLoss: false,
+  draggable: true,
+  pauseOnHover: true,
+};
+
+const ContactInfo = () => (
+  <div className="py-4 flex-grow flex flex-col space-y-8 md:justify-between">
+    <div>
+      <h1 className="font-bold text-4xl text-green-500 tracking-wide">
+        Contact Me
+      </h1>
+      <h2 className="pt-8">Hello! I'm Utkarsh Katiyar.</h2>
+      <h2 className="pt-8">
+        🚀 Ready to connect? Drop me a line with your details or just say hi!
+      </h2>
+      <h3 className=" pt-8">📧 Email: utkarsh_katiyar@outlook.com</h3>
+      <h3 className=" pt-4">📍 Location: Bengaluru, Karnataka, India</h3>
+      <h2 className="pt-8">Looking forward to hearing from you!</h2>
+    </div>
+  </div>
+);
+
+const ContactForm = ({ formRef, onSubmit }) => (
+  <div className="relative z-10">
+    <div className="absolute -top-28 -right-28 bg-green-500 rounded-full w-40 h-40"></div>
+    <div className="absolute -bottom-16 -left-28 bg-green-500 rounded-full w-40 h-40"></div>
+    <div className="relative z-10 bg-white text-gray-600 rounded-xl shadow-lg p-8 w-full md:w-80">
+      <form
+        ref={formRef}
+        onSubmit={onSubmit}
+        className="flex flex-col space-y-4"
+      >
+        {formFields.map((field) => (
+          <FormInput key={field.id} {...field} />
+        ))}
+        <div className="pt-3">
+          <button
+            type="submit"
+            className="btn btn-info inline-block self-end hover:bg-green-500 text-white bg-gray-500 font-bold rounded-lg px-6 py-2 uppercase text-sm"
+          >
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+);
+
+const formFields = [
+  {
+    id: "name",
+    label: "Your name",
+    type: "text",
+    placeholder: "Name",
+    name: "from_name",
+  },
+  {
+    id: "email",
+    label: "Email Address",
+    type: "email",
+    placeholder: "Email Address",
+    name: "user_email",
+  },
+  {
+    id: "subject",
+    label: "Subject",
+    type: "text",
+    placeholder: "Subject",
+    name: "subject",
+  },
+  {
+    id: "message",
+    label: "Message",
+    type: "textarea",
+    placeholder: "Your message",
+    name: "message",
+  },
+];
+
+const FormInput = ({ id, label, type, placeholder, name }) => (
+  <div className="form-group pt-2 mx-auto col-8">
+    <label htmlFor={id} className="text-sm">
+      {label}
+    </label>
+    <input
+      type={type !== "textarea" ? type : undefined}
+      as={type === "textarea" ? "textarea" : "input"}
+      className="form-control ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-gray-900"
+      placeholder={placeholder}
+      id={id}
+      name={name}
+      required
+      rows={type === "textarea" ? "2" : undefined}
+    />
+  </div>
+);
 
 export default ContactSection;

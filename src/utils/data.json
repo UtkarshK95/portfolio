@@ -1,0 +1,109 @@
+{
+  "profile": {
+    "name": "Utkarsh Katiyar",
+    "description": "JavaScript | Front End Developer",
+    "resumeLink": "https://drive.google.com/file/d/1rJwSlkcZ_7NGdoGuxCrAthnHY6R-Dw_7/view?usp=share_link",
+    "socialLinks": {
+      "github": "https://github.com/UtkarshK95",
+      "twitter": "https://twitter.com/UtkarshK07",
+      "instagram": "https://instagram.com/utkarsh.katiyar07",
+      "linkedin": "https://www.linkedin.com/in/utkarsh-katiyar/"
+    }
+  },
+  "projects": [
+    {
+      "title": "Portfolio",
+      "description": "A portfolio webapp built using ReactJS, Tailwind CSS and some external libraries like EmailJS and React Toastify.",
+      "image": "Portfolio",
+      "link": "/#",
+      "liveLink": "/#"
+    },
+    {
+      "title": "Watchify",
+      "description": "A YouTube Clone Application in React JS with Material UI 5 and RapidAPI.",
+      "image": "Watchify",
+      "link": "https://utkarsh-watchify.netlify.app/",
+      "liveLink": "https://utkarsh-watchify.netlify.app/"
+    },
+    {
+      "title": "Movie Bee",
+      "description": "A YouTube Clone Application in React JS with Material UI 5 and RapidAPI.",
+      "image": "Watchify",
+      "link": "https://utkarsh-watchify.netlify.app/",
+      "liveLink": "https://utkarsh-watchify.netlify.app/"
+    },
+    {
+      "title": "Fit Flow",
+      "description": "A YouTube Clone Application in React JS with Material UI 5 and RapidAPI.",
+      "image": "Watchify",
+      "link": "https://utkarsh-watchify.netlify.app/",
+      "liveLink": "https://utkarsh-watchify.netlify.app/"
+    },
+    {
+      "title": "Fit Flow Pro",
+      "description": "A YouTube Clone Application in React JS with Material UI 5 and RapidAPI.",
+      "image": "Watchify",
+      "link": "https://utkarsh-watchify.netlify.app/",
+      "liveLink": "https://utkarsh-watchify.netlify.app/"
+    }
+  ],
+  "timeline": {
+    "education": [
+      {
+        "period": "2015 - 2019",
+        "institution": "Jaypee University of Information Technology",
+        "degree": "Bachelor of Technology - Computer Science and Engineering"
+      }
+    ],
+    "experience": [
+      {
+        "period": "Jan 2022 - Present",
+        "company": "Publicis Sapient",
+        "position": "Associate, Technology L2"
+      },
+      {
+        "period": "Jan 2019 - Dec 2021",
+        "company": "Infosys",
+        "position": "Systems Engineer"
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Proactive in completing tasks assigned to him with eagerness to learn and understand",
+      "name": "Harsh Chandran",
+      "title": "Project Manager - QBurst"
+    },
+    {
+      "quote": "Utkarsh is an amazing UI Designer. His insights in Javascript and React is always a bliss for the team. Utkarsh is also a great team member as being helpful to everyone.",
+      "name": "Aditya",
+      "title": "Senior Software Engineer - BBI"
+    },
+    {
+      "quote": "I had the pleasure of working with Utkarsh in the same project. He is an easy going person. He is always available to help us when needed. He is very determined, intelligent and always aims for high quality work. His contributions are really valuable to our project. He is fast to respond and He is my go-to person when I need advice.",
+      "name": "Asha Deepika",
+      "title": "Systems Engineer - Tata Consultancy Services"
+    },
+    {
+      "quote": "Utkarsh did an exceptional job in our recent project that we both worked upon. He is a very productive person and is a multi-skilled person with vast knowledge. Utkarsh is careful, proactive, self motivated and intelligent team player. It’s a pleasure working with Utkarsh",
+      "name": "Shubhendra Srivastava",
+      "title": "Senior Associate Consultant - Infosys"
+    },
+    {
+      "quote": "Utkarsh is amazing at his job! He knows his way around people, he is good with clients, does whatever it takes to help colleagues and get things done. He makes sure that everyone is on the same page and focused on main goal.",
+      "name": "Kranthi Ranga Routhu",
+      "title": "Technology Analyst - Infosys"
+    }
+  ],
+  "skills": [
+    { "name": "HTML 5", "icon": "FaHtml5" },
+    { "name": "CSS 3", "icon": "FaCss3Alt" },
+    { "name": "JavaScript", "icon": "FaJs" },
+    { "name": "TypeScript", "icon": "SiTypescript" },
+    { "name": "ReactJS", "icon": "FaReact" },
+    { "name": "Redux", "icon": "SiRedux" },
+    { "name": "Tailwind", "icon": "SiTailwindcss" },
+    { "name": "Git", "icon": "FaGitAlt" },
+    { "name": "Jest", "icon": "SiJest" }
+  ]
+}
