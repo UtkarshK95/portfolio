@@ -30,7 +30,7 @@ const Home = () => {
               <HiCloudDownload className="text-3xl px-1 mx-auto inline-block" />
             </a>
           </div>
-          <div className="flex space-x-3 mt-4">
+          <div className="flex space-x-3 mt-6">
             <a
               href={data.profile.socialLinks.github}
               className="text-gray-200"
