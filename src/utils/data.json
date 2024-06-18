@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Utkarsh Katiyar",
-    "description": "JavaScript | Front End Developer",
+    "description": "Full Stack Engineer",
     "resumeLink": "https://drive.google.com/file/d/1rJwSlkcZ_7NGdoGuxCrAthnHY6R-Dw_7/view?usp=share_link",
     "socialLinks": {
       "github": "https://github.com/UtkarshK95",
@@ -59,7 +59,7 @@
       {
         "period": "Jan 2022 - Present",
         "company": "Publicis Sapient",
-        "position": "Associate, Technology L2"
+        "position": "Experience Engineer L2"
       },
       {
         "period": "Jan 2019 - Dec 2021",
@@ -98,12 +98,29 @@
   "skills": [
     { "name": "HTML 5", "icon": "FaHtml5" },
     { "name": "CSS 3", "icon": "FaCss3Alt" },
+    { "name": "SASS", "icon": "FaSass" },
+    { "name": "Bootstrap", "icon": "FaBootstrap" },
+    { "name": "Tailwind CSS", "icon": "SiTailwindcss" },
+    { "name": "Styled-Components", "icon": "SiStyledcomponents" },
     { "name": "JavaScript", "icon": "FaJs" },
     { "name": "TypeScript", "icon": "SiTypescript" },
+    { "name": "ChartJS", "icon": "ImPieChart" },
     { "name": "ReactJS", "icon": "FaReact" },
     { "name": "Redux", "icon": "SiRedux" },
-    { "name": "Tailwind", "icon": "SiTailwindcss" },
+    { "name": "NextJS", "icon": "RiNextjsFill" },
+    { "name": "NodeJS", "icon": "FaNodeJs" },
+    { "name": "ExpressJS", "icon": "SiExpress" },
+    { "name": "MongoDB", "icon": "SiMongodb" },
     { "name": "Git", "icon": "FaGitAlt" },
-    { "name": "Jest", "icon": "SiJest" }
+    { "name": "Jenkins", "icon": "FaJenkins" },
+    { "name": "Figma", "icon": "FaFigma" },
+    { "name": "Rest API", "icon": "GoGear" },
+    { "name": "GraphQL", "icon": "GrGraphQl" },
+    { "name": "Jest", "icon": "SiJest" },
+    { "name": "Enzyme", "icon": "LuTestTube2" },
+    { "name": "React-Testing-Library", "icon": "FaOctopusDeploy" },
+    { "name": "Cypress", "icon": "SiCypress" },
+    { "name": "Sitecore", "icon": "SiSitecore" },
+    { "name": "Kentico", "icon": "SiKentico" }
   ]
 }
