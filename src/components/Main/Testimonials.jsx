@@ -1,28 +1,37 @@
 import React from "react";
+import Slider from "react-slick";
 import data from "../../utils/data.json";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Testimonials = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: false,
+  };
+
   return (
-    <div className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
-        <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">
-          Testimonials
-        </h1>
-        <div className="flex flex-wrap -m-4">
-          {data.testimonials.map((testimonial, index) => (
-            <div key={index} className="lg:w-1/3 w-full mb-6 p-4">
-              <div className="h-full text-center">
-                <p className="leading-relaxed">{testimonial.quote}</p>
-                <span className="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
-                <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
-                  {testimonial.name}
-                </h2>
-                <p className="text-gray-500">{testimonial.title}</p>
-              </div>
+    <div className="text-gray-600 body-font pb-6">
+      <Slider {...settings}>
+        {data.testimonials.map((testimonial, index) => (
+          <div key={index} className="p-4">
+            <div className="h-full text-center">
+              <p className="leading-relaxed">{testimonial.quote}</p>
+              <span className="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+              <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
+                {testimonial.name}
+              </h2>
+              <p className="text-gray-500">{testimonial.title}</p>
             </div>
-          ))}
-        </div>
-      </div>
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 };
