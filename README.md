@@ -51,7 +51,7 @@ To run this project locally, follow these steps:
    npm run dev
    ```
 
-   The app will be available at `http://localhost:3000`.
+   The app will be available at `http://localhost:5173`.
 
 ## Building for Production
 
