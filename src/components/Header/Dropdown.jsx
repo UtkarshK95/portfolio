@@ -7,7 +7,11 @@ const Dropdown = ({ isOpen, toggle }) => {
 
   return (
     <div
-      className={`${isOpen ? "grid grid-rows-4 text-center items-center bg-gray-600" : "hidden"}`}
+      className={`${
+        isOpen
+          ? "fixed w-full grid grid-rows-4 text-center items-center bg-gray-600 opacity-90"
+          : "hidden"
+      }`}
       onClick={toggle}
       aria-expanded={isOpen}
       aria-hidden={!isOpen}

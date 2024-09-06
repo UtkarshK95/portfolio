@@ -50,8 +50,13 @@
   "timeline": {
     "education": [
       {
+        "period": "2024 - 2026",
+        "institution": "Birla Institute of Technology and Science, Pilani",
+        "degree": "Master of Technology - Software Engineering"
+      },
+      {
         "period": "2015 - 2019",
-        "institution": "Jaypee University of Information Technology",
+        "institution": "Jaypee University of Information Technology, Solan",
         "degree": "Bachelor of Technology - Computer Science and Engineering"
       }
     ],
