@@ -1,12 +1,14 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import Portfolio from "../../assets/portfolio.png";
-import Watchify from "../../assets/watchify.png";
+import MovieBee from "../../assets/MovieBee.png";
+import FitFlow from "../../assets/FitFlow.png";
 import data from "../../utils/data.json";
 
 const imageMap = {
   Portfolio: Portfolio,
-  Watchify: Watchify,
+  MovieBee: MovieBee,
+  FitFlow: FitFlow,
 };
 
 const ProjectsPage = () => {
@@ -40,15 +42,26 @@ const ProjectsPage = () => {
                   {project.description}
                 </p>
               </div>
-              <a
-                href={project.liveLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white text-nik-dark px-5 py-4 md:py-3 md:px-4 xl:py-4 xl:px-6 rounded-xl text-base md:text-base xl:text-lg font-normal shadow-xl hover:bg-nik-dark hover:bg-gray-200 focus:outline-none"
-                aria-label={`See ${project.title} live`}
-              >
-                See Live
-              </a>
+              <div className="flex gap-16">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white text-nik-dark px-5 py-4 md:py-3 md:px-4 xl:py-4 xl:px-6 rounded-xl text-base md:text-base xl:text-lg font-normal shadow-xl hover:bg-nik-dark hover:bg-gray-200 focus:outline-none"
+                  aria-label={`See ${project.title} repo`}
+                >
+                  Git Repo
+                </a>
+                <a
+                  href={project.liveLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white text-nik-dark px-5 py-4 md:py-3 md:px-4 xl:py-4 xl:px-6 rounded-xl text-base md:text-base xl:text-lg font-normal shadow-xl hover:bg-nik-dark hover:bg-gray-200 focus:outline-none"
+                  aria-label={`See ${project.title} live`}
+                >
+                  See Live
+                </a>
+              </div>
             </div>
           </div>
         ))}

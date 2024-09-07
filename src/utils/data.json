@@ -13,38 +13,24 @@
   "projects": [
     {
       "title": "Portfolio",
-      "description": "A portfolio webapp built using ReactJS, Tailwind CSS and some external libraries like EmailJS and React Toastify.",
+      "description": "A sophisticated portfolio app crafted using ReactJS and Tailwind CSS, incorporating advanced libraries such as React-Toastify for seamless notifications and EmailJS for efficient email handling. This app demonstrates modern design principles, responsive layouts, and robust functionality, showcasing a professional standard of web development.",
       "image": "Portfolio",
-      "link": "/#",
-      "liveLink": "/#"
-    },
-    {
-      "title": "Watchify",
-      "description": "A YouTube Clone Application in React JS with Material UI 5 and RapidAPI.",
-      "image": "Watchify",
-      "link": "https://utkarsh-watchify.netlify.app/",
-      "liveLink": "https://utkarsh-watchify.netlify.app/"
+      "link": "https://github.com/UtkarshK95/portfolio",
+      "liveLink": "https://utkarshkatiyar-portfolio.vercel.app/"
     },
     {
       "title": "Movie Bee",
-      "description": "A YouTube Clone Application in React JS with Material UI 5 and RapidAPI.",
-      "image": "Watchify",
-      "link": "https://utkarsh-watchify.netlify.app/",
-      "liveLink": "https://utkarsh-watchify.netlify.app/"
+      "description": "A responsive IMDB clone built with Next.js 14 and Tailwind CSS, offering fast performance, server-side rendering, and a modern, user-friendly interface for browsing movies and TV show ratings.",
+      "image": "MovieBee",
+      "link": "https://github.com/UtkarshK95/moviebee",
+      "liveLink": "https://utkarsh-moviebee.vercel.app/"
     },
     {
       "title": "Fit Flow",
-      "description": "A YouTube Clone Application in React JS with Material UI 5 and RapidAPI.",
-      "image": "Watchify",
-      "link": "https://utkarsh-watchify.netlify.app/",
-      "liveLink": "https://utkarsh-watchify.netlify.app/"
-    },
-    {
-      "title": "Fit Flow Pro",
-      "description": "A YouTube Clone Application in React JS with Material UI 5 and RapidAPI.",
-      "image": "Watchify",
-      "link": "https://utkarsh-watchify.netlify.app/",
-      "liveLink": "https://utkarsh-watchify.netlify.app/"
+      "description": "A MERN-based app which is a robust tool for tracking and managing diverse workout routines. Designed for fitness enthusiasts and trainers, it provides an intuitive platform to plan, monitor, and optimise fitness activities, ensuring seamless performance and real-time data processing.",
+      "image": "FitFlow",
+      "link": "https://github.com/UtkarshK95/fitflow",
+      "liveLink": "https://utkarsh-fitflow.vercel.app/"
     }
   ],
   "timeline": {
