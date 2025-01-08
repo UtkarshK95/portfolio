@@ -24,6 +24,7 @@ import {
   SiSitecore,
   SiKentico,
 } from "react-icons/si";
+import { GiArtificialHive, GiBrain } from "react-icons/gi";
 import { ImPieChart } from "react-icons/im";
 import { RiNextjsFill } from "react-icons/ri";
 import { GoGear } from "react-icons/go";
@@ -59,6 +60,8 @@ const iconMap = {
   SiCypress: SiCypress,
   SiSitecore: SiSitecore,
   SiKentico: SiKentico,
+  GiBrain: GiBrain,
+  GiArtificialHive: GiArtificialHive,
 };
 
 const Skills = () => {

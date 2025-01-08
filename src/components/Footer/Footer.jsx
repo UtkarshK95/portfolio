@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 
 const SocialLink = ({ href, Icon, label }) => {
   return (
@@ -20,7 +20,7 @@ const Footer = () => {
     <footer className="bg-gray-800 text-gray-400 body-font">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <p className="text-sm text-gray-200 sm:border-gray-500 sm:py-2 sm:mt-0 mt-4 hover:text-teal">
-          Designed & Built by{" "}
+          Designed & Built with ❤️ by{" "}
           <span className="text-green-500">@UtkarshKatiyar</span>
         </p>
         <div className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
@@ -30,19 +30,14 @@ const Footer = () => {
             label="GitHub"
           />
           <SocialLink
-            href="https://twitter.com/UtkarshK07"
-            Icon={FaTwitter}
-            label="Twitter"
-          />
-          <SocialLink
-            href="https://instagram.com/utkarsh.katiyar07"
-            Icon={FaInstagram}
-            label="Instagram"
-          />
-          <SocialLink
             href="https://www.linkedin.com/in/utkarsh-katiyar/"
             Icon={FaLinkedin}
             label="LinkedIn"
+          />
+          <SocialLink
+            href="https://medium.com/@utkarsh-katiyar/"
+            Icon={FaMedium}
+            label="Medium"
           />
         </div>
       </div>

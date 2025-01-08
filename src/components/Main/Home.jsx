@@ -1,7 +1,7 @@
 import React from "react";
 import Coding from "../../assets/coding.svg";
 import { HiCloudDownload } from "react-icons/hi";
-import { FaGithub, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 import data from "../../utils/data.json";
 
 const Home = () => {
@@ -41,24 +41,6 @@ const Home = () => {
               <FaGithub className="w-5 h-5 transform transition-all duration-300 hover:-translate-y-2 text-white hover:text-teal" />
             </a>
             <a
-              href={data.profile.socialLinks.twitter}
-              className="text-gray-200"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Twitter"
-            >
-              <FaTwitter className="w-5 h-5 transform transition-all duration-300 hover:-translate-y-2 text-white hover:text-teal" />
-            </a>
-            <a
-              href={data.profile.socialLinks.instagram}
-              className="text-gray-200"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Instagram"
-            >
-              <FaInstagram className="w-5 h-5 transform transition-all duration-300 hover:-translate-y-2 text-white hover:text-teal" />
-            </a>
-            <a
               href={data.profile.socialLinks.linkedin}
               className="text-gray-200"
               target="_blank"
@@ -66,6 +48,15 @@ const Home = () => {
               aria-label="LinkedIn"
             >
               <FaLinkedin className="w-5 h-5 transform transition-all duration-300 hover:-translate-y-2 text-white hover:text-teal" />
+            </a>
+            <a
+              href={data.profile.socialLinks.medium}
+              className="text-gray-200"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Medium"
+            >
+              <FaMedium className="w-5 h-5 transform transition-all duration-300 hover:-translate-y-2 text-white hover:text-teal" />
             </a>
           </div>
         </div>

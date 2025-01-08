@@ -3,12 +3,14 @@ import { FaGithub } from "react-icons/fa";
 import Portfolio from "../../assets/portfolio.png";
 import MovieBee from "../../assets/MovieBee.png";
 import FitFlow from "../../assets/FitFlow.png";
+import NutriMate from "../../assets/NutriMate.png";
 import data from "../../utils/data.json";
 
 const imageMap = {
   Portfolio: Portfolio,
   MovieBee: MovieBee,
   FitFlow: FitFlow,
+  NutriMate: NutriMate,
 };
 
 const ProjectsPage = () => {
