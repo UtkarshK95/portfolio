@@ -1,14 +1,14 @@
 // Import statements
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Header/Navbar";
-import Dropdown from "./components/Header/Dropdown";
-import Home from "./components/Main/Home";
-import About from "./components/Main/About";
-import Projects from "./components/Main/Projects";
-import Contact from "./components/Main/Contact";
-import Footer from "./components/Footer/Footer";
-import "./styles/output.css";
+import Navbar from "./components/layout/Navbar";
+import Dropdown from "./components/layout/Dropdown";
+import ScrollToTop from "./components/layout/ScrollToTop";
+import Footer from "./components/layout/Footer";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Projects from "./components/pages/Projects";
+import Contact from "./components/pages/Contact";
 
 // Main App component
 export default function App() {
@@ -33,10 +33,11 @@ export default function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Routes>
-        <Route path="/" element={<Home />} exact />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />

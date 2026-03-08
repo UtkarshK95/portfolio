@@ -1,42 +1,128 @@
 {
   "profile": {
     "name": "Utkarsh Katiyar",
-    "description": "Senior Software Engineer |  BITS Pilani | 5+ Years of Experience | UI/UX, ReactJS, NextJS, Generative AI (RAG)",
-    "resumeLink": "https://drive.google.com/file/d/1Xr4SZ42cyiH-xYOp18xNyKY_9Hz1kd6D/view?usp=sharing",
+    "description": "Senior Software Engineer |  BITS Pilani | 7+ Years of Experience | UI/UX, ReactJS, NextJS, Generative AI (RAG)",
+    "resumeLink": "https://drive.google.com/file/d/1kGM9z40RrMOHRYielyvSmqufVsns800K/view?usp=sharing",
     "socialLinks": {
       "github": "https://github.com/UtkarshK95",
-      "linkedin": "https://www.linkedin.com/in/utkarsh-katiyar/",
-      "medium": "https://medium.com/@utkarsh-katiyar/"
+      "linkedin": "https://www.linkedin.com/in/utkarsh-katiyar/"
     }
   },
   "projects": [
     {
-      "title": "Portfolio",
-      "description": "A sophisticated portfolio app crafted using ReactJS and Tailwind CSS, incorporating advanced libraries such as React-Toastify for seamless notifications and EmailJS for efficient email handling. This app demonstrates modern design principles, responsive layouts, and robust functionality, showcasing a professional standard of web development.",
-      "image": "Portfolio",
-      "link": "https://github.com/UtkarshK95/portfolio",
-      "liveLink": "https://utkarshkatiyar-portfolio.vercel.app/"
+      "title": "NutriMate",
+      "description": "NutriMate is a local-first AI companion that reads your lab reports, learns your body, and delivers deeply personalised nutrition and wellness insights, while also simplifying complex research papers for health enthusiasts, all privately on your machine. No cloud. Only privacy.",
+      "techStack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Gemini AI",
+        "Upstash Redis",
+        "Radix UI",
+        "Zod",
+        "unpdf"
+      ],
+      "image": "NutriMate",
+      "link": "https://github.com/UtkarshK95/nutrimate",
+      "liveLink": "https://nutrimate-uk.vercel.app/"
+    },
+    {
+      "title": "ShotSecure",
+      "description": "ShotSecure gives school coordinators a powerful command center to schedule vaccination drives, track immunisation records, and generate compliance reports, eliminating paperwork and reducing administrative errors across every campus.",
+      "techStack": [
+        "React",
+        "Vite",
+        "MUI",
+        "React Router",
+        "Axios",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Mongoose",
+        "Vitest",
+        "Jest",
+        "Supertest"
+      ],
+      "image": "ShotSecure",
+      "link": "https://github.com/UtkarshK95/shotsecure",
+      "liveLink": "https://shotsecure-uk.vercel.app/"
     },
     {
       "title": "Movie Bee",
-      "description": "A responsive IMDB clone built with Next.js 14 and Tailwind CSS, offering fast performance, server-side rendering, and a modern, user-friendly interface for browsing movies and TV show ratings.",
+      "description": "Movie Bee is a blazing-fast entertainment discovery platform with real-time ratings, curated collections, personalised watchlists, and a cinema-grade browsing experience, built for how people actually discover and watch content today.",
+      "techStack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "next-themes",
+        "TMDB API"
+      ],
       "image": "MovieBee",
       "link": "https://github.com/UtkarshK95/moviebee",
-      "liveLink": "https://utkarsh-moviebee.vercel.app/"
+      "liveLink": "https://moviebee-uk.vercel.app/"
     },
     {
-      "title": "Fit Flow",
-      "description": "A MERN-based app which is a robust tool for tracking and managing diverse workout routines. Designed for fitness enthusiasts and trainers, it provides an intuitive platform to plan, monitor, and optimise fitness activities, ensuring seamless performance and real-time data processing.",
-      "image": "FitFlow",
-      "link": "https://github.com/UtkarshK95/fitflow",
-      "liveLink": "https://utkarsh-fitflow.vercel.app/"
+      "title": "Pokedex",
+      "description": "The ultimate Pokémon companion. Search, filter, and explore the entire Pokédex with lightning-fast lookups by name or type, paired with rich detail pages and smooth navigation that makes discovery effortless and enjoyable.",
+      "techStack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "PokeAPI"
+      ],
+      "image": "Pokedex",
+      "link": "https://github.com/UtkarshK95/pokedex",
+      "liveLink": "https://pokedex-uk.vercel.app/"
     },
     {
-      "title": "NutriMate",
-      "description": "A RAG Chatbot powered by Gen AI delivers precise, verified answers to nutrition questions, drawing from reputable research papers, medical journals, and government health sites.",
-      "image": "NutriMate",
-      "link": "https://github.com/UtkarshK95/nutrimate",
-      "liveLink": "https://nutrimatechat.vercel.app/"
+      "title": "SwiftMemo",
+      "description": "SwiftMemo is a zero-friction Chrome extension that captures your thoughts the moment they strike, synced across devices, works offline, and respects your privacy with absolutely no login required.",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "Chrome Extensions API",
+        "Drag & Drop",
+        "Vitest"
+      ],
+      "image": "SwiftMemo",
+      "link": "https://github.com/UtkarshK95/swiftmemo",
+      "liveLink": "https://chromewebstore.google.com/search/SwiftMemo"
+    },
+    {
+      "title": "React Nano Skeleton",
+      "description": "React Nano Skeleton is a featherweight loading skeleton UI library with plug-and-play presets for any layout, drop it in, delight your users, and ship polished experiences without adding a single extra dependency.",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "tsup",
+        "Vitest",
+        "npm",
+        "size-limit"
+      ],
+      "image": "ReactNanoSkeleton",
+      "link": "https://github.com/UtkarshK95/react-nano-skeleton",
+      "liveLink": "https://www.npmjs.com/package/react-nano-skeleton"
+    },
+    {
+      "title": "Portfolio",
+      "description": "A living, breathing showcase of craft and code. This portfolio is built from the ground up to be fast, accessible, and visually sharp, with seamless contact, real-time email delivery, and a UI that communicates before words do.",
+      "techStack": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "React Router",
+        "EmailJS",
+        "React Toastify",
+        "Vercel"
+      ],
+      "image": "Portfolio",
+      "link": "https://github.com/UtkarshK95/portfolio",
+      "liveLink": "https://portfolio-uk.vercel.app/"
     }
   ],
   "timeline": {
@@ -54,22 +140,32 @@
     ],
     "experience": [
       {
-        "period": "Jan 2022 - Present",
+        "period": "April 2025 - Present",
+        "company": "Perficient",
+        "position": "Lead Technical Consultant"
+      },
+      {
+        "period": "Jan 2022 - March 2025",
         "company": "Publicis Sapient",
         "position": "Experience Engineer L2"
       },
       {
         "period": "Jan 2019 - Dec 2021",
         "company": "Infosys",
-        "position": "Systems Engineer"
+        "position": "Senior Systems Engineer"
       }
     ]
   },
   "testimonials": [
     {
-      "quote": "Proactive in completing tasks assigned to him with eagerness to learn and understand",
-      "name": "Harsh Chandran",
-      "title": "Project Manager - QBurst"
+      "quote": "I had the opportunity to work closely with Utkarsh on Adobe client projects, where we collaborated on building automation workflows and frontend integrations. Utkarsh played a key role in working with Adobe Workfront Fusion, integrating Photoshop and Firefly APIs, and supporting custom model workflows with reliable, well-structured solutions. He brings a strong balance of technical depth and practical problem-solving, and is equally comfortable working on React.js frontend components as well as understanding complex automation pipelines. Utkarsh is dependable, quick to learn, and consistently delivers high-quality work, making him a valuable team member on any enterprise-level project.",
+      "name": "Ayush Jaiswal",
+      "title": "Forward Deployed Engineer - Adobe"
+    },
+    {
+      "quote": "Utkarsh was a valuable member of my team at Publicis Sapient for three years. He consistently delivered exceptional results on a fast-paced, client-facing Telco-eCommerce project. As a skilled software engineer with expertise in Micro Frontend (MFE) architecture and the React framework, Utkarsh's technical skills, dedication to learning, and sharp problem-solving abilities made him a standout contributor. Beyond being a true team player, any team would be lucky to have him.",
+      "name": "Rajat Sharma",
+      "title": "Technology Manager - Publicis Sapient"
     },
     {
       "quote": "Utkarsh is an amazing UI Designer. His insights in Javascript and React is always a bliss for the team. Utkarsh is also a great team member as being helpful to everyone.",
@@ -77,52 +173,78 @@
       "title": "Senior Software Engineer - BBI"
     },
     {
-      "quote": "I had the pleasure of working with Utkarsh in the same project. He is an easy going person. He is always available to help us when needed. He is very determined, intelligent and always aims for high quality work. His contributions are really valuable to our project. He is fast to respond and He is my go-to person when I need advice.",
-      "name": "Asha Deepika",
-      "title": "Systems Engineer - Tata Consultancy Services"
-    },
-    {
-      "quote": "Utkarsh did an exceptional job in our recent project that we both worked upon. He is a very productive person and is a multi-skilled person with vast knowledge. Utkarsh is careful, proactive, self motivated and intelligent team player. It’s a pleasure working with Utkarsh",
-      "name": "Shubhendra Srivastava",
-      "title": "Senior Associate Consultant - Infosys"
-    },
-    {
       "quote": "Utkarsh is amazing at his job! He knows his way around people, he is good with clients, does whatever it takes to help colleagues and get things done. He makes sure that everyone is on the same page and focused on main goal.",
       "name": "Kranthi Ranga Routhu",
-      "title": "Technology Analyst - Infosys"
+      "title": "Software Engineer - Discover"
+    },
+    {
+      "quote": "Proactive in completing tasks assigned to him with eagerness to learn and understand.",
+      "name": "Harsha Chandran",
+      "title": "Senior Project Manager - Sigmoid"
+    },
+    {
+      "quote": "I had the pleasure of working with Utkarsh in the same project. He is an easy going person. He is always available to help us when needed. He is very determined, intelligent and always aims for high quality work. His contributions are really valuable to our project. He is fast to respond and he is my go-to person when I need advice.",
+      "name": "Asha Deepika",
+      "title": "Frontend Developer - Evernorth Health Services"
+    },
+    {
+      "quote": "Utkarsh did an exceptional job in our recent project that we both worked upon. He is a very productive person and is a multi-skilled person with vast knowledge. Utkarsh is careful, proactive, self motivated and intelligent team player. It's a pleasure working with Utkarsh.",
+      "name": "Shubhendra Srivastava",
+      "title": "Senior Software Engineer - VWITS"
     }
   ],
   "skills": [
-    { "name": "HTML 5", "icon": "FaHtml5" },
-    { "name": "CSS 3", "icon": "FaCss3Alt" },
-    { "name": "SASS", "icon": "FaSass" },
-    { "name": "Bootstrap", "icon": "FaBootstrap" },
-    { "name": "Tailwind CSS", "icon": "SiTailwindcss" },
-    { "name": "Styled-Components", "icon": "SiStyledcomponents" },
-    { "name": "JavaScript", "icon": "FaJs" },
-    { "name": "TypeScript", "icon": "SiTypescript" },
-    { "name": "ChartJS", "icon": "ImPieChart" },
-    { "name": "ReactJS", "icon": "FaReact" },
-    { "name": "Redux", "icon": "SiRedux" },
-    { "name": "NextJS", "icon": "RiNextjsFill" },
-    { "name": "NodeJS", "icon": "FaNodeJs" },
-    { "name": "ExpressJS", "icon": "SiExpress" },
-    { "name": "MongoDB", "icon": "SiMongodb" },
-    { "name": "Git", "icon": "FaGitAlt" },
-    { "name": "Jenkins", "icon": "FaJenkins" },
-    { "name": "Figma", "icon": "FaFigma" },
-    { "name": "Rest API", "icon": "GoGear" },
-    { "name": "GraphQL", "icon": "GrGraphQl" },
-    { "name": "Jest", "icon": "SiJest" },
-    { "name": "Enzyme", "icon": "LuTestTube2" },
-    { "name": "React-Testing-Library", "icon": "FaOctopusDeploy" },
-    { "name": "Cypress", "icon": "SiCypress" },
-    { "name": "Sitecore", "icon": "SiSitecore" },
-    { "name": "Kentico", "icon": "SiKentico" },
-    { "name": "Gen AI", "icon": "GiBrain" },
+    { "name": "HTML 5", "icon": "FaHtml5", "category": "UI & Styling" },
+    { "name": "CSS 3", "icon": "FaCss3Alt", "category": "UI & Styling" },
+    { "name": "SASS", "icon": "FaSass", "category": "UI & Styling" },
+    { "name": "Bootstrap", "icon": "FaBootstrap", "category": "UI & Styling" },
     {
-      "name": "RAG",
-      "icon": "GiArtificialHive"
-    }
+      "name": "Tailwind CSS",
+      "icon": "SiTailwindcss",
+      "category": "UI & Styling"
+    },
+    {
+      "name": "Styled Components",
+      "icon": "SiStyledcomponents",
+      "category": "UI & Styling"
+    },
+    { "name": "JavaScript", "icon": "FaJs", "category": "Languages" },
+    { "name": "TypeScript", "icon": "SiTypescript", "category": "Languages" },
+    {
+      "name": "ReactJS",
+      "icon": "FaReact",
+      "category": "Frameworks & Libraries"
+    },
+    {
+      "name": "Redux",
+      "icon": "SiRedux",
+      "category": "Frameworks & Libraries"
+    },
+    {
+      "name": "NextJS",
+      "icon": "RiNextjsFill",
+      "category": "Frameworks & Libraries"
+    },
+    {
+      "name": "ChartJS",
+      "icon": "ImPieChart",
+      "category": "Frameworks & Libraries"
+    },
+    { "name": "NodeJS", "icon": "FaNodeJs", "category": "Backend" },
+    { "name": "ExpressJS", "icon": "SiExpress", "category": "Backend" },
+    { "name": "MongoDB", "icon": "SiMongodb", "category": "Backend" },
+    { "name": "Rest API", "icon": "GoGear", "category": "Backend" },
+    { "name": "GraphQL", "icon": "GrGraphQl", "category": "Backend" },
+    { "name": "Jest", "icon": "SiJest", "category": "Testing" },
+    { "name": "Enzyme", "icon": "LuTestTubeDiagonal", "category": "Testing" },
+    { "name": "RTL", "icon": "FaOctopusDeploy", "category": "Testing" },
+    { "name": "Cypress", "icon": "SiCypress", "category": "Testing" },
+    { "name": "Git", "icon": "FaGitAlt", "category": "Tools & DevOps" },
+    { "name": "Jenkins", "icon": "FaJenkins", "category": "Tools & DevOps" },
+    { "name": "Figma", "icon": "FaFigma", "category": "Tools & DevOps" },
+    { "name": "Sitecore", "icon": "SiSitecore", "category": "CMS" },
+    { "name": "Kentico", "icon": "SiKentico", "category": "CMS" },
+    { "name": "Gen AI", "icon": "GiBrain", "category": "AI / ML" },
+    { "name": "RAG", "icon": "GiArtificialHive", "category": "AI / ML" }
   ]
 }
