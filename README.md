@@ -4,7 +4,7 @@
 
 A fast, accessible, and visually polished personal portfolio built with **React + Vite** and **Tailwind CSS**. Features a fully functional contact form with real-time email delivery, smooth animations, and a responsive layout that works beautifully on all devices.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-portfolio--uk.vercel.app-blue?style=for-the-badge&logo=vercel)](https://personal-portfolio-uk.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-personal--portfolio--uk.vercel.app-blue?style=for-the-badge&logo=vercel)](https://personal-portfolio-uk.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](./LICENSE)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38BDF8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
