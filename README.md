@@ -129,7 +129,7 @@ This project is deployed on **Vercel**. To deploy your own fork:
 
 ## ☕ Support the Project
 
-- **GitHub:** [https://github.com/UtkarshK95/react-nano-skeleton](https://github.com/UtkarshK95/react-nano-skeleton)
+- **GitHub:** [https://github.com/UtkarshK95/portfolio](https://github.com/UtkarshK95/portfolio)
 - **Buy Me a Coffee:** [https://buymeacoffee.com/utkarshk95](https://buymeacoffee.com/utkarshk95)
 
 ---
